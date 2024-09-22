@@ -84,7 +84,7 @@ export default function ComingSoon() {
     };
   }, []);
 
-  const resumeUrl = process.env.NEXT_PUBLIC_RESUME_URL || '#'; // Fallback if env variable is not set
+  const resumeUrl = `https://drive.google.com/uc?export=download&id=1NU-AlvlZekA5f1G6JekjD-ptnAXtsvH1`;
 
   return (
     <div className="relative min-h-screen flex flex-col items-center justify-center bg-black text-white overflow-hidden">
