@@ -84,20 +84,20 @@ export default function ComingSoon() {
     };
   }, []);
 
-  const resumeUrl = `https://drive.google.com/uc?export=download&id=1NU-AlvlZekA5f1G6JekjD-ptnAXtsvH1`;
+  const resumeUrl = `https://drive.google.com/uc?export=download&id=1lBJeFaCOOwEr06lp6zPQR6zpFj3rO9Vz`;
 
   return (
-    <div className="relative min-h-screen flex flex-col items-center justify-center bg-black text-white overflow-hidden">
-      <canvas ref={canvasRef} className="absolute inset-0 w-full h-full" />
-      <div className="relative z-10 text-center px-4">
-        <h1 className="text-6xl md:text-9xl font-bold mb-4 uppercase">
+    <div className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden bg-black text-white">
+      <canvas ref={canvasRef} className="absolute inset-0 h-full w-full" />
+      <div className="relative z-10 px-4 text-center">
+        <h1 className="mb-4 text-6xl font-bold uppercase md:text-9xl">
           Coming Soon
         </h1>
-        <p className="text-2xl md:text-3xl mb-8">
+        <p className="mb-8 text-2xl md:text-3xl">
           My portfolio is under construction. Stay tuned!
         </p>
-        <a href={resumeUrl} download="resume.pdf">
-          <Button className="bg-white text-black hover:bg-gray-200 font-bold py-2 px-4 rounded">
+        <a href={resumeUrl} download="Harshit_Resume.pdf">
+          <Button className="rounded bg-white px-4 py-2 font-bold text-black hover:bg-gray-200">
             Download Resume
           </Button>
         </a>
